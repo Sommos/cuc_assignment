@@ -123,22 +123,23 @@ public class Main {
 		}
 		
 		// outputs the array before the bubble sort is applied //
-		System.out.println("Array before bubble sort");
+		print("Array before bubble sort");
 		// for loop that loops through the array and prints out each value at each position, relative to array length //
         for(int i=0; i < arr.length; i++) {  
-        	System.out.print(arr[i] + " ");  
+        	print(arr[i] + " ");  
         }
         // prints new line for readability //
-        System.out.println();  
+        print(""); 
         
         // applies the bubble sort method to the argument 'arr' array //
         bubbleSort(arr);
          
         // outputs the array after the bubble sort is applied to the array //
-        System.out.println("Array after bubble sort");  
+        print("Array after bubble sort");  
         for(int i=0; i < arr.length; i++) {  
-        	System.out.print(arr[i] + " ");  
+        	print(arr[i] + " ");  
         }  
+        print("");
         // returns to menu //
         menu();
 	}
